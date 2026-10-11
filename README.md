@@ -24,4 +24,9 @@ How to Run
 Project Status
 
 Completed as a Python project for learning and internship practice.
+Internship Details
+
+- Internship Provider: CODTECH
+- Internship Role: Python Programming Intern
+- Intern ID: CITS9470
 
