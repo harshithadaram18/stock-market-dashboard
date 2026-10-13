@@ -1,32 +1,36 @@
-Stock Market Dashboard
+# Real-Time Stock Market Dashboard
 
-A Python-based Stock Market Dashboard using Python, Pandas, and Matplotlib.
+A Python-based interactive stock market dashboard built using Streamlit.
 
-Features
+## Features
+- Select stocks: AAPL, MSFT, GOOGL, TSLA, NVDA
+- Select historical periods
+- Display latest close, day high, day low, and volume
+- Interactive stock price chart
+- Historical stock data table
 
-- Display sample stock prices
-- Visualize stock prices using charts
-- Analyze stock data using Python
-
-Technologies Used
-
+## Technologies Used
 - Python
+- Streamlit
+- yfinance
 - Pandas
-- Matplotlib
+- Plotly
 - Google Colab
 
-How to Run
+## How to Run
+1. Install the required libraries:
+   pip install streamlit yfinance plotly
 
-1. Open "Stock_marketing_dashbord.ipynb" in Google Colab.
-2. Run the code cells one by one.
-3. View the stock price data and graph.
+2. Run the application:
+   streamlit run app.py
 
-Project Status
+## Note
+Stock data is obtained using yfinance and may be delayed.
+This dashboard is for educational purposes.
 
-Completed as a Python project for learning and internship practice.
-Internship Details
-
+## Internship Details
 - Internship Provider: CODTECH
 - Internship Role: Python Programming Intern
-- Intern ID: CITS9470
+- Internship ID: CITS9470
+- 
 
